@@ -1,6 +1,6 @@
 import GameSaving from './GameSaving';
-import json from './parsesTheData';
-import read from './loadsData';
+import json from './parser';
+import read from './reader';
 
 export default class GameSavingLoader {
   static load() {
